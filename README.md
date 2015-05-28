@@ -1,22 +1,23 @@
-# Thortful iOS Fever app
+# Thortful API Fever 
 
-Show us what you can do and how clean your code is! Write an app that uses public APIs to fetch data and display it in an organized way.
+Show us what you can do and how clean your code is! Write a simple api that let a user login and, once authenticated, return a list of anything you want (food items , places, photos, ...)
 
-Even if we all love playing with Swift (who doesn't ;)), please stick with the plain old Objective-C here.
+Don't worry about data persistence, signup forms ... User credentials can be hardcoded, in some approriate place and the data for your list as well.
 
-For example:
+Having said that, if you want to play with:
+* Server side Facebook Graph API (appscecret_proof / ...) taking a access token at signin stage to return some user info
+* integrating 3rd party API (Cats API, stackoverflow, ...) and use it to return cats or post
+* Anything else you feel will be either fun to do and even funner to demo, please knock yourself out
 
-* A StackOverflow client that shows the hottest questions
-* An app that shows random images of cats from [The Cat API](http://thecatapi.com/)
-* An app that downloads the NSHipster RSS feed showing and index of all the articles and that alerts the user when the latest article is published
-* _Anything you can come up with!_
+Please provide a simple README file describing your endpoints and how to consume them.
 
 We could be sneaky and not say anything else, but here's some things we're looking to see:
 
-* Use of existing open source libraries
-* Standard best practises for Networking - Not reiventing the wheel
-* Tests!
-* **In this test** we don't care too much about the UI, what we care is how good the code is!
+* Spring : boot / social / security / ...
+* JWT if you feel like it
+* Maven / Gradle
+* Not reinventing the wheel (we know it's round and works, let's leave it like this)
+* Some tests
 
 ### Submission notes
 
