@@ -1,8 +1,8 @@
-# Thortful API Fever 
+# Thortful API Fever
 
 Show us what you can do and how clean your code is! Write a simple api that lets a user login and once authenticated, returns a list of anything you want (food items, places, photos, ...)
 
-Don't worry about data persistence, signup forms ... User credentials can be hardcoded, in some approriate place and the data for your list as well.
+Don't worry about data persistence, signup calls ... User credentials can be hardcoded, in some approriate place and the data for your list as well.
 
 Having said that, if you want to play with:
 * Server side Facebook Graph API (appscecret_proof / ...) taking an access token at signin stage to return some user info
@@ -10,6 +10,11 @@ Having said that, if you want to play with:
 * Anything else you feel will be either fun to do and even funner to demo, please knock yourself out
 
 Please provide a simple README file describing your endpoints and how to consume them.
+We like reverse engineering but something like the below would help:
+```
+curl <some options> http://localhost:8080/endpoint ...
+```
+
 
 We could be sneaky and not say anything else, but here's some things we're looking to see:
 
